@@ -1,7 +1,7 @@
 // routes/userRoutes.js
 import express from 'express';
 import { createUser, getAllUsers, loginUser, getUserById, swipeRight, swipeLeft, getUsersInChat } from '../controllers/userController.js';
-import authenticateToken from '../middleware/authMiddleware.js';
+import authenticateToken from '../Middleware/authMiddleware.js';
 
 
 const userRouter = express.Router();
